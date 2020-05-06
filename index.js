@@ -25,7 +25,7 @@ function getServer(address, port, uri, password){
             (systemInfoCached.getDiskusage().used), // MB
             systemInfoCached.getNetworkSpeed().rx / 1024, // KB/s
             systemInfoCached.getNetworkTransfer().rx / 1024 ** 2, // MB
-            Math.floor(systemInfoCached.getUptime())], // min
+            Math.floor(systemInfoCached.getUptime() / 60)], // min
             [1, 
             mem.total / 1024, 
             systemInfoCached.getDiskusage().total,
