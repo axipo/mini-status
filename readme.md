@@ -12,11 +12,11 @@ miniStatus是一个美观可定制主题的服务器监控小程序，可实现�
 
 **节点列表界面**
 
-<img src="https://i.loli.net/2020/05/06/WjAp2KxGivHIk43.jpg" style="margin:0 auto;width: 20rem;box-shadow:0 0 3px rgba(0,0,0,0.2)">
+<div  align=center><img src="https://i.loli.net/2020/05/06/OtVWSvF7R61J2BI.jpg" width="300"/></div>
 
 **自定义主题样式界面**
 
-<img src="https://i.loli.net/2020/05/06/Bi8PF9hncOMR1y2.jpg" style="margin:0 auto;width: 20rem;box-shadow:0 0 3px rgba(0,0,0,0.2)">
+<div  align=center><img src="https://i.loli.net/2020/05/06/6EWxUw5OBMSfkHA.jpg" width="300"/></div>
 
 
 ## 特点
@@ -51,8 +51,7 @@ Optional arguments:
 
 ### 配置微信小程序
 
-<img src="https://i.loli.net/2020/05/06/h1A4XIS5ytibpnw.jpg" style="margin:0 auto; width: 20rem;box-shadow:0 0 3px rgba(0,0,0,0.2)">
-
+点击小程序右下角的`+`按钮，填写对应的配置选项
 
 
 ## 原理
@@ -69,6 +68,6 @@ Optional arguments:
 <svg width="${width}" height="${height}" xmlns="http://www.w3.org/2000/svg"></svg>
 ```
 
-详细的实现可以看[这个文件](./wxImagePing.js)
+详细的实现可以看[这个文件](./lib/wxImagePing.js)
 
 ## FAQ
