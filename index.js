@@ -22,13 +22,13 @@ function getServer(address, port, uri, password){
         res.pingCodelist([
             [systemInfoCached.getCpuUsage(), 
             mem.used / 1024, //MB
-            (systemInfoCached.getDiskusage().total - systemInfoCached.getDiskusage().free) / 1024 ** 2,
+            (systemInfoCached.getDiskusage().used), // MB
             systemInfoCached.getNetworkSpeed().rx / 1024, // KB/s
             systemInfoCached.getNetworkTransfer().rx / 1024 ** 2, // MB
             Math.floor(systemInfoCached.getUptime())], // min
             [1, 
             mem.total / 1024, 
-            systemInfoCached.getDiskusage().total / 1024 ** 2,
+            systemInfoCached.getDiskusage().total,
             systemInfoCached.getNetworkSpeed().tx / 1024, // KB/s
             systemInfoCached.getNetworkTransfer().tx / 1024 ** 2,// MB
             1]
