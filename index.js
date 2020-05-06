@@ -1,7 +1,6 @@
 const express = require('express')
-const wxImagePing = require('./wxImagePing')
-const {systemInfoCached} = require('./metrics-utils/systemInfoCached')
-const getArgs = require('./getArgs')
+const wxImagePing = require('./lib/wxImagePing')
+const {systemInfoCached} = require('./lib/metrics-utils/systemInfoCached')
 
 
 function getServer(address, port, uri, password){
@@ -44,20 +43,4 @@ function getServer(address, port, uri, password){
 }
 
 
-// get arguments
-var args = getArgs()
-var address = args.address
-var address = address.split(':')
-var port
-if(address.length === 1){
-    port = parseInt(address[0])
-    address = '0.0.0.0'
-}else if(address.length === 2){
-    port = parseInt(address[1])
-    address = address[0]
-}else {
-    console.error('error while parse address')
-    return
-}
-
-app = getServer(address, port, args.uri, args.password)
+module.exports = getServer

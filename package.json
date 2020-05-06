@@ -1,17 +1,34 @@
 {
   "name": "mini-status",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "backend for wechat mini-program miniStatus",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "homepage": "https://github.com/axipo/mini-status",
+  "keywords": [
+    "server monitor",
+    "server metrics",
+    "miniStatus",
+    "mini-status"
+  ],
+  "author": "axipo",
+  "license": "MIT",
   "dependencies": {
     "argparse": "^1.0.10",
     "diskusage": "^1.1.3",
     "express": "^4.17.1"
+  },
+  "bin": {
+    "mini-status-cli": "bin/mini-status-cli.js",
+    "mini-status": "bin/mini-status-cli.js"
+  },
+  "engine": {
+    "node": ">=10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/axipo/mini-status"
   }
 }
