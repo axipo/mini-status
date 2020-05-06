@@ -12,11 +12,11 @@ miniStatus是一个美观可定制主题的服务器监控小程序，可实现�
 
 **节点列表界面**
 
-![节点列表界面](https://i.loli.net/2020/05/06/WjAp2KxGivHIk43.jpg)
+<img src="https://i.loli.net/2020/05/06/WjAp2KxGivHIk43.jpg" style="margin:0 auto;width: 20rem;box-shadow:0 0 3px rgba(0,0,0,0.2)">
 
 **自定义主题样式界面**
 
-![自定义主题样式界面](https://i.loli.net/2020/05/06/Bi8PF9hncOMR1y2.jpg)
+<img src="https://i.loli.net/2020/05/06/Bi8PF9hncOMR1y2.jpg" style="margin:0 auto;width: 20rem;box-shadow:0 0 3px rgba(0,0,0,0.2)">
 
 
 ## 特点
@@ -51,7 +51,7 @@ Optional arguments:
 
 ### 配置微信小程序
 
-![配置微信小程序](https://i.loli.net/2020/05/06/h1A4XIS5ytibpnw.jpg)
+<img src="https://i.loli.net/2020/05/06/h1A4XIS5ytibpnw.jpg" style="margin:0 auto; width: 20rem;box-shadow:0 0 3px rgba(0,0,0,0.2)">
 
 
 
