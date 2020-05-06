@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const getServer = require('../index')
 const getArgs = require('../lib/getArgs')
 
