@@ -97,7 +97,7 @@ password: 123
   我写了一个简单的安装脚本，但还没有充分测试，欢迎反馈
 
 ```
-wget https://gist.githubusercontent.com/axipo/81e148e47f4a02892c22e76339b68b63/raw/4ae1fc7f1ccc42ee6a4537358e41c42b415725bd/mini_status_easy_install.sh && chmod u+x mini_status_easy_install.sh && ./mini_status_easy_install
+wget https://gist.githubusercontent.com/axipo/81e148e47f4a02892c22e76339b68b63/raw/4ae1fc7f1ccc42ee6a4537358e41c42b415725bd/mini_status_easy_install.sh && chmod u+x mini_status_easy_install.sh && ./mini_status_easy_install.sh
 ```
 
   或者，也可以使用下面相关项目中的一键脚本（未充分测试，有问题去提issue）
