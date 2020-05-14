@@ -1,6 +1,6 @@
 {
   "name": "mini-status",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "backend for wechat mini-program miniStatus",
   "main": "index.js",
   "scripts": {

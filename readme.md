@@ -85,4 +85,17 @@ password: 123
 
 详细的实现可以看[这个文件](./lib/wxImagePing.js)
 
+## 相关项目
+
+- [mini-status一键安装脚本](https://github.com/tadple/mini-status-shell)
+
+
 ## FAQ
+
+1.我配置填写服务器数据存放在哪？
+
+  存放在你手机本地，放心，咱不馋你数据
+
+2.我是小白，没有node js的开发经验，但我看着挺好看也想用用怎么办？
+
+  可以使用上面相关项目中的一键脚本
